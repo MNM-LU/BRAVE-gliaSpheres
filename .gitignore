@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+data
+output
+todelete
+seqFiles
+packrat/lib*/
+bbmap
+Hammock_v_1.2.0
+Hammock_v_1.1.1
