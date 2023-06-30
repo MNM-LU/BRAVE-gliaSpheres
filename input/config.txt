@@ -1,0 +1,8 @@
+dataDir	seqFiles
+in.name.P5	DNA_pscAAVlib_R1.fastq.gz
+in.name.P7	DNA_pscAAVlib_R2.fastq.gz
+name.out	AAVlibrary_complete
+paired.alignment	TRUE
+run.subset	FALSE
+max.cores	32
+subset.count	250000

@@ -1,0 +1,65 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |...                                                              |   4%
+  ordinary text without R code
+
+  |                                                                         |.....                                                            |   8%
+label: unnamed-chunk-1
+  |                                                                         |........                                                         |  12%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |...........                                                      |  17%
+  ordinary text without R code
+
+  |                                                                         |..............                                                   |  21%
+label: Loading reads.......
+  |                                                                         |................                                                 |  25%
+  ordinary text without R code
+
+  |                                                                         |...................                                              |  29%
+label: Making Bowtie index.......
+  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |........................                                         |  38%
+label: unnamed-chunk-2
+  |                                                                         |...........................                                      |  42%
+  ordinary text without R code
+
+  |                                                                         |..............................                                   |  46%
+label: unnamed-chunk-3
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  54%
+label: unnamed-chunk-4
+  |                                                                         |......................................                           |  58%
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  62%
+label: Reducing barcodes.......
+  |                                                                         |...........................................                      |  67%
+  ordinary text without R code
+
+  |                                                                         |..............................................                   |  71%
+label: unnamed-chunk-5
+  |                                                                         |.................................................                |  75%
+  ordinary text without R code
+
+  |                                                                         |...................................................              |  79%
+label: Splitting Reads.......
+  |                                                                         |......................................................           |  83%
+  ordinary text without R code
+
+  |                                                                         |.........................................................        |  88%
+label: Splitting Clean Reads.......
+  |                                                                         |............................................................     |  92%
+  ordinary text without R code
+
+  |                                                                         |..............................................................   |  96%
+label: Calculation consensus reads .....
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S4_Fragment_translation.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S4_Fragment_translation.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/RtmplRTACf/file82462fc20f2 

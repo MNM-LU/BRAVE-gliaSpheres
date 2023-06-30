@@ -1,0 +1,45 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |....                                                             |   6%
+  ordinary text without R code
+
+  |                                                                         |........                                                         |  12%
+label: unnamed-chunk-1
+  |                                                                         |............                                                     |  19%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |................                                                 |  25%
+  ordinary text without R code
+
+  |                                                                         |....................                                             |  31%
+label: unnamed-chunk-2
+  |                                                                         |........................                                         |  38%
+  ordinary text without R code
+
+  |                                                                         |............................                                     |  44%
+label: unnamed-chunk-3
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.....................................                            |  56%
+label: Selecting real amplicons.......
+  |                                                                         |.........................................                        |  62%
+  ordinary text without R code
+
+  |                                                                         |.............................................                    |  69%
+label: Extracting subset.......
+  |                                                                         |.................................................                |  75%
+  ordinary text without R code
+
+  |                                                                         |.....................................................            |  81%
+label: Extracting barcodes.......
+  |                                                                         |.........................................................        |  88%
+  ordinary text without R code
+
+  |                                                                         |.............................................................    |  94%
+label: Extracting fragments.......
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S2_AAV-lib_libraryExtraction.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S2_AAV-lib_libraryExtraction.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/Rtmpd0f3N4/file2bd39bbb8e 

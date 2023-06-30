@@ -1,0 +1,43 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |.....                                                            |   8%
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  15%
+label: unnamed-chunk-1
+  |                                                                         |...............                                                  |  23%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |....................                                             |  31%
+  ordinary text without R code
+
+  |                                                                         |.........................                                        |  38%
+label: unnamed-chunk-2
+  |                                                                         |..............................                                   |  46%
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  54%
+label: unnamed-chunk-3
+  |                                                                         |........................................                         |  62%
+  ordinary text without R code
+
+  |                                                                         |.............................................                    |  69%
+label: unnamed-chunk-4
+  |                                                                         |..................................................               |  77%
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  85%
+label: unnamed-chunk-5 (with options) 
+List of 1
+ $ echo: logi FALSE
+
+  |                                                                         |............................................................     |  92%
+label: unnamed-chunk-6 (with options) 
+List of 1
+ $ echo: logi TRUE
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S8_PlotAllGenesCoverage.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S8_PlotAllGenesCoverage.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/RtmpnEtvbg/file61166c4b6332 

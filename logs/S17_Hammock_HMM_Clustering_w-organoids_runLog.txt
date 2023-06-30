@@ -1,0 +1,40 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |.....                                                            |   8%
+  ordinary text without R code
+
+  |                                                                         |...........                                                      |  17%
+label: unnamed-chunk-1
+  |                                                                         |................                                                 |  25%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |...........................                                      |  42%
+label: unnamed-chunk-2
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |......................................                           |  58%
+label: unnamed-chunk-3
+  |                                                                         |...........................................                      |  67%
+  ordinary text without R code
+
+  |                                                                         |.................................................                |  75%
+label: unnamed-chunk-4
+  |                                                                         |......................................................           |  83%
+label: unnamed-chunk-5 (with options) 
+List of 1
+ $ results: chr "asis"
+
+  |                                                                         |............................................................     |  92%
+label: unnamed-chunk-6 (with options) 
+List of 1
+ $ results: chr "markup"
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S17_Hammock_HMM_Clustering_w-organoids.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S17_Hammock_HMM_Clustering_w-organoids.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/Rtmp6WjMvY/file5a0d325433f2 

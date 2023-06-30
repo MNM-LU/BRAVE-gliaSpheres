@@ -1,0 +1,25 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |........                                                         |  12%
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  25%
+label: unnamed-chunk-1
+  |                                                                         |........................                                         |  38%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  62%
+label: Analyzing RNA.......
+  |                                                                         |.................................................                |  75%
+  ordinary text without R code
+
+  |                                                                         |.........................................................        |  88%
+label: unnamed-chunk-2
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S5_AAV-lib_tissueExtraction.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S5_AAV-lib_tissueExtraction.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/RtmpZD4Mpu/file17136fa9f7e 

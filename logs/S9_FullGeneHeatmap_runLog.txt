@@ -1,0 +1,49 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |.....                                                            |   7%
+  ordinary text without R code
+
+  |                                                                         |.........                                                        |  14%
+label: unnamed-chunk-1
+  |                                                                         |..............                                                   |  21%
+label: setup (with options) 
+List of 2
+ $ include: logi FALSE
+ $ tidy   : logi TRUE
+
+  |                                                                         |...................                                              |  29%
+label: unnamed-chunk-2 (with options) 
+List of 1
+ $ tidy: logi TRUE
+
+  |                                                                         |.......................                                          |  36%
+  ordinary text without R code
+
+  |                                                                         |............................                                     |  43%
+label: unnamed-chunk-3
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.....................................                            |  57%
+label: unnamed-chunk-4
+  |                                                                         |..........................................                       |  64%
+  ordinary text without R code
+
+  |                                                                         |..............................................                   |  71%
+label: unnamed-chunk-5
+  |                                                                         |...................................................              |  79%
+  ordinary text without R code
+
+  |                                                                         |........................................................         |  86%
+label: unnamed-chunk-6 (with options) 
+List of 1
+ $ results: chr "asis"
+
+  |                                                                         |............................................................     |  93%
+label: unnamed-chunk-7 (with options) 
+List of 1
+ $ results: chr "markup"
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S9_FullGeneHeatmap.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S9_FullGeneHeatmap.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/Rtmp6iH96L/file44a93794b8fe 

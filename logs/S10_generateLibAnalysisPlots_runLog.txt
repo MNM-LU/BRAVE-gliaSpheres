@@ -1,0 +1,16 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |....                                                             |   6%
+  ordinary text without R code
+
+  |                                                                         |.......                                                          |  11%
+label: unnamed-chunk-1
+  |                                                                         |...........                                                      |  17%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |..............                                                   |  22%
+  ordinary text without R code
+
+  |                                                                         |..................                                               |  28%
+label: unnamed-chunk-2
+

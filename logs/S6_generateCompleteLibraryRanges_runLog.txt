@@ -1,0 +1,20 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |...........                                                      |  17%
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  33%
+label: unnamed-chunk-1
+  |                                                                         |................................                                 |  50%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |                                                                         |...........................................                      |  67%
+  ordinary text without R code
+
+  |                                                                         |......................................................           |  83%
+label: Generating library rages.......
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+/usr/lib/rstudio-server/bin/pandoc/pandoc +RTS -K512m -RTS S6_generateCompleteLibraryRanges.utf8.md --to latex --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output S6_generateCompleteLibraryRanges.pdf --template /usr/local/lib/R/site-library/rmarkdown/rmd/latex/default-1.17.0.2.tex --highlight-style tango --latex-engine pdflatex --variable graphics=yes --include-in-header /tmp/Rtmp7vXqnM/file572241d8d55 
